@@ -1,0 +1,53 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    font-size: 22px;
+    width: 80%;
+    margin: auto;
+    padding:3vw 8vw;
+}
+
+.container h1 {
+  font-size: 2em;
+  
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+header.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datos_personales>span{
+    display: block;
+}
+
+.wrapper__foto_perfil{
+    width: 13vw;
+    height: 10vw;
+    border: 0;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+
+.foto_perfil{
+    display: block;
+    margin: auto;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.estudios .estudios_tipo{
+    text-decoration: underline;
+}
