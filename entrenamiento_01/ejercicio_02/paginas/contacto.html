@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento 1 - Ejercicio 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container navbar">
+            <ul class="navbar_menu">
+                <li>
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li><span class="nabvar_menu-divider">|</span></li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <form action="contacto.html" method="post" class="form_contacto">
+            <div class="form_contacto-input_wrapper">
+                <label class="form_contacto-label" for="nombre">Nombre:</label><input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="form_contacto-input_wrapper">
+                <label class="form_contacto-label" for="correo">E-mail:</label><input type="email" name="correo" id="correo">
+            </div>
+            <div class="form_contacto-input_wrapper">
+                <label class="form_contacto-label" for="telefono">Tel:</label><input type="number" name="telefono" id="telefono">
+            </div>
+            <div class="form_contacto-input_wrapper form_contacto-textarea">
+                <label class="form_contacto-label" for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            <div class="form_contacto-botones">
+                <input class="form_contacto-botones-submit" type="submit" value="Enviar">
+                <button type="reset" class="form_contacto-botones-cancelar">Cancelar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+Todos los derechos reservados   
+    </footer>
+</body>
+</html>
