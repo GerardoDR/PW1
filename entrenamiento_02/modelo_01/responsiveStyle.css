@@ -1,0 +1,25 @@
+@media (width >= 1024px) {
+  .container {
+    font-size: 2em;
+  }
+
+  .box1 {
+    margin-bottom: 0;
+    width: 50%;
+    height: 50vh;
+  }
+
+  .box2 {
+    width: 50%;
+    height: 50vh;
+  }
+
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    width: 25%;
+    height: 50vh;
+    background-color: #f4cccc;
+  }
+}

@@ -1,0 +1,23 @@
+@media (width >= 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2em;
+    border: 0.04em solid black;
+  }
+
+  .box2,
+  .box4,
+  .box5,
+  .box6 {
+    display: flex;
+    width: 25%;
+  }
+
+  .box1,
+  .box3,
+  .box5 {
+    width: 75%;
+  }
+}
